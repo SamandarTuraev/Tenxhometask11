@@ -1,12 +1,12 @@
-@import url('https://fonts.cdnfonts.com/css/space-grotesk');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
 }
 
@@ -15,6 +15,7 @@
     border-radius: 14px;
     padding: 20px 35px;
     cursor: pointer;
+    transition: all 1s ease;
 }
 .btn:hover {
     background-color: #000000;
@@ -221,28 +222,28 @@
     background-color: white;
 }
 /* ----- Our Working ------ */
-.accordion{
+.accordion {
     width: 100%;
     margin-top: 80px;
     padding: 15px;
     border-radius: 8px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
-.accordion .accordion-content{
+.accordion .accordion-content {
     margin-bottom: 30px;
-    background: #F3F3F3;
-    border: 1px solid #191A23;
-    box-shadow: 0px 5px 0px #191A23;
+    background: #f3f3f3;
+    border: 1px solid #191a23;
+    box-shadow: 0px 5px 0px #191a23;
     border-radius: 45px;
     overflow: hidden;
 }
 .accordion .accordion-content:focus {
-    background-color: #B9FF66;
+    background-color: #b9ff66;
 }
-.accordion-content.open{
+.accordion-content.open {
     padding-bottom: 10px;
 }
-.accordion-content header{
+.accordion-content header {
     display: flex;
     min-height: 50px;
     padding: 0 15px;
@@ -254,9 +255,9 @@
     padding-bottom: 30px;
     border-bottom: 1px solid #333;
 }
-.accordion-content.open header{
+.accordion-content.open header {
     min-height: 35px;
-} 
+}
 
 .accordion-content header .header__title .title {
     font-weight: 500;
@@ -265,7 +266,7 @@
     color: #000000;
 }
 .accordion-content header .header__title h1 {
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
@@ -277,19 +278,18 @@
     width: 58px;
     height: 58px;
     border-radius: 50%;
-    background: #F3F3F3;
-    border: 1px solid #191A23;
+    background: #f3f3f3;
+    border: 1px solid #191a23;
     display: flex;
     align-items: center;
     text-align: center;
-    
 }
-.accordion-content header .accordion__icon i{
+.accordion-content header .accordion__icon i {
     font-size: 28px;
     color: #000;
     padding-left: 15px;
 }
-.accordion-content .description{
+.accordion-content .description {
     height: 0;
     color: #333;
     font-weight: 400;
@@ -312,9 +312,9 @@
     padding: 48px 43px;
     width: 387px;
     height: 331px;
-    background: #FFFFFF;
-    border: 1px solid #191A23;
-    box-shadow: 0px 5px 0px #191A23;
+    background: #ffffff;
+    border: 1px solid #191a23;
+    box-shadow: 0px 5px 0px #191a23;
     border-radius: 45px;
 }
 .worker_header {
@@ -350,11 +350,6 @@
 .team_worker_test {
     margin-top: 28px;
 }
-
-
-
-
-
 
 /* ------ forme ----------*/
 .forme__container {
@@ -418,17 +413,16 @@ label span {
     width: 556px;
     height: 68px;
 }
-.forme__header{
+.forme__header {
     display: flex;
-    gap:35px;
+    gap: 35px;
 }
-.say{
+.say {
     display: flex;
-    align-items:center;
-
+    align-items: center;
 }
 /* ----- footer ------ */
-.footer{
+.footer {
     margin-top: 140px;
     color: #fff;
 }
@@ -437,7 +431,7 @@ label span {
     text-decoration: underline;
 }
 .footer .home {
-    background: #191A23;
+    background: #191a23;
     border-radius: 45px 45px 0px 0px;
     padding: 55px 60px;
 }
@@ -447,36 +441,36 @@ label span {
 }
 .footer__contact {
     padding: 50px 0;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #ffffff;
 }
 .contact__us {
     line-height: 27px;
 }
 .contact__container h1 {
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
     color: #000000;
-    background: #B9FF66;
+    background: #b9ff66;
     border-radius: 7px;
     padding: 0 7px;
     display: inline-block;
 }
 .contact__us p {
     margin-top: 26px;
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .contact__subcribe {
     width: 634px;
     height: 184px;
-    background: #292A32;
+    background: #292a32;
     border-radius: 14px;
     padding: 58px 40px;
 }
@@ -484,38 +478,49 @@ label span {
     padding: 22px 35px;
     width: 285px;
     height: 67px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     border-radius: 14px;
     background: transparent;
-}
-.contact__subcribe input::placeholder {
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+.contact__subcribe input::placeholder {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
 }
 .contact__button button {
     width: 249px;
     height: 68px;
-    background: #B9FF66;
+    background: #b9ff66;
     border-radius: 14px;
     padding: 20px 35px;
-    font-family: 'Space Grotesk';
+    font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #000000;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.contact__button button:hover {
+    opacity: 0.7;
 }
 .footer__bottom {
     padding-top: 50px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .footer__bottom a {
     margin-left: 40px;
