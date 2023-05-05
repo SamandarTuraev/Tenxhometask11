@@ -118,6 +118,9 @@
 .network {
     margin-top: 70px;
 }
+.img__flex {
+    gap: 70px;
+}
 
 /*  ---- services --- */
 .services {
@@ -524,4 +527,4 @@ label span {
 }
 .footer__bottom a {
     margin-left: 40px;
-}
+}  
